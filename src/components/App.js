@@ -9,7 +9,7 @@ const App = () => {
     <div id="main">
        {change?<p className="blueColor"} >Newton School</p>:<p className="redColor" >Newton School</p>}
       
-      <button id='button' onClick={()=>setChange = !{change}>Change Style</button>
+      <button id='button' onClick={()=>setChange = {!change}>Change Style</button>
     </div>
   )
 }
