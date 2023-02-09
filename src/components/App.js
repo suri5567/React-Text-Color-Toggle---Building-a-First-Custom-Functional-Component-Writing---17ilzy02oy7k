@@ -7,7 +7,7 @@ const App = () => {
  
   return (
     <div id="main">
-       {change?<p className={} style={{color:"blue" fontSize:"30px" fontStyle="italic"}} >Newton School</p>:<p className={}>Newton School</p>}
+       {change?<p className="blueColor" style={{display:"block"}} >Newton School</p>:<p className="redColor" >Newton School</p>}
       
       <button id='button' onClick={()=>setChange = !change}>Change Style</button>
     </div>
