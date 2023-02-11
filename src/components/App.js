@@ -9,14 +9,17 @@ const App = () => {
   
  const updateOnClick = ()=>{
     setValue(!value);
-   if(value){
-       setClassName("redcolor");
-       
    }
-   else
-   {
-     setClassName("blueColor");
- }
+   
+   useEffect(()=>{
+       if(value==true){
+            setClassName("redColor");
+       }
+        else{
+            setClassName("blueColor");
+        }
+   })
+ 
  
  
   return (
